@@ -19,8 +19,8 @@
 		90D4F21F282C9F6C003B7048 /* ClipboardLandingPageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardLandingPageApp.swift; sourceTree = "<group>"; };
 		90D4F220282C9F6C003B7048 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90D4F221282C9F6D003B7048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		90D4F226282C9F6D003B7048 /* ClipboardLandingPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipboardLandingPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		90D4F22C282C9F6D003B7048 /* ClipboardLandingPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipboardLandingPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D4F226282C9F6D003B7048 /* Clipboard Landing Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clipboard Landing Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D4F22C282C9F6D003B7048 /* Clipboard Landing Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clipboard Landing Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D4F22E282C9F6D003B7048 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,9 +54,9 @@
 		90D4F21E282C9F6C003B7048 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				90D4F21F282C9F6C003B7048 /* ClipboardLandingPageApp.swift */,
-				90D4F220282C9F6C003B7048 /* ContentView.swift */,
-				90D4F221282C9F6D003B7048 /* Assets.xcassets */,
+				90D4F23F282C9F8B003B7048 /* Models */,
+				90D4F23E282C9F86003B7048 /* Views */,
+				90D4F23D282C9F7E003B7048 /* App */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -64,8 +64,8 @@
 		90D4F227282C9F6D003B7048 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90D4F226282C9F6D003B7048 /* ClipboardLandingPage.app */,
-				90D4F22C282C9F6D003B7048 /* ClipboardLandingPage.app */,
+				90D4F226282C9F6D003B7048 /* Clipboard Landing Page.app */,
+				90D4F22C282C9F6D003B7048 /* Clipboard Landing Page.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,12 +78,36 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		90D4F23D282C9F7E003B7048 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				90D4F21F282C9F6C003B7048 /* ClipboardLandingPageApp.swift */,
+				90D4F221282C9F6D003B7048 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		90D4F23E282C9F86003B7048 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				90D4F220282C9F6C003B7048 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		90D4F23F282C9F8B003B7048 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		90D4F225282C9F6D003B7048 /* ClipboardLandingPage (iOS) */ = {
+		90D4F225282C9F6D003B7048 /* Clipboard Landing Page (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90D4F237282C9F6D003B7048 /* Build configuration list for PBXNativeTarget "ClipboardLandingPage (iOS)" */;
+			buildConfigurationList = 90D4F237282C9F6D003B7048 /* Build configuration list for PBXNativeTarget "Clipboard Landing Page (iOS)" */;
 			buildPhases = (
 				90D4F222282C9F6D003B7048 /* Sources */,
 				90D4F223282C9F6D003B7048 /* Frameworks */,
@@ -93,14 +117,14 @@
 			);
 			dependencies = (
 			);
-			name = "ClipboardLandingPage (iOS)";
+			name = "Clipboard Landing Page (iOS)";
 			productName = "ClipboardLandingPage (iOS)";
-			productReference = 90D4F226282C9F6D003B7048 /* ClipboardLandingPage.app */;
+			productReference = 90D4F226282C9F6D003B7048 /* Clipboard Landing Page.app */;
 			productType = "com.apple.product-type.application";
 		};
-		90D4F22B282C9F6D003B7048 /* ClipboardLandingPage (macOS) */ = {
+		90D4F22B282C9F6D003B7048 /* Clipboard Landing Page (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90D4F23A282C9F6D003B7048 /* Build configuration list for PBXNativeTarget "ClipboardLandingPage (macOS)" */;
+			buildConfigurationList = 90D4F23A282C9F6D003B7048 /* Build configuration list for PBXNativeTarget "Clipboard Landing Page (macOS)" */;
 			buildPhases = (
 				90D4F228282C9F6D003B7048 /* Sources */,
 				90D4F229282C9F6D003B7048 /* Frameworks */,
@@ -110,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = "ClipboardLandingPage (macOS)";
+			name = "Clipboard Landing Page (macOS)";
 			productName = "ClipboardLandingPage (macOS)";
-			productReference = 90D4F22C282C9F6D003B7048 /* ClipboardLandingPage.app */;
+			productReference = 90D4F22C282C9F6D003B7048 /* Clipboard Landing Page.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 90D4F21D282C9F6C003B7048 /* Build configuration list for PBXProject "ClipboardLandingPage" */;
+			buildConfigurationList = 90D4F21D282C9F6C003B7048 /* Build configuration list for PBXProject "Clipboard Landing Page" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,8 +170,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90D4F225282C9F6D003B7048 /* ClipboardLandingPage (iOS) */,
-				90D4F22B282C9F6D003B7048 /* ClipboardLandingPage (macOS) */,
+				90D4F225282C9F6D003B7048 /* Clipboard Landing Page (iOS) */,
+				90D4F22B282C9F6D003B7048 /* Clipboard Landing Page (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +267,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -295,6 +321,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -324,7 +352,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.ClipboardLandingPage;
-				PRODUCT_NAME = ClipboardLandingPage;
+				PRODUCT_NAME = "Clipboard Landing Page";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,7 +382,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.ClipboardLandingPage;
-				PRODUCT_NAME = ClipboardLandingPage;
+				PRODUCT_NAME = "Clipboard Landing Page";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -384,7 +412,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.ClipboardLandingPage;
-				PRODUCT_NAME = ClipboardLandingPage;
+				PRODUCT_NAME = "Clipboard Landing Page";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -412,7 +440,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.ClipboardLandingPage;
-				PRODUCT_NAME = ClipboardLandingPage;
+				PRODUCT_NAME = "Clipboard Landing Page";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -422,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		90D4F21D282C9F6C003B7048 /* Build configuration list for PBXProject "ClipboardLandingPage" */ = {
+		90D4F21D282C9F6C003B7048 /* Build configuration list for PBXProject "Clipboard Landing Page" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90D4F235282C9F6D003B7048 /* Debug */,
@@ -431,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90D4F237282C9F6D003B7048 /* Build configuration list for PBXNativeTarget "ClipboardLandingPage (iOS)" */ = {
+		90D4F237282C9F6D003B7048 /* Build configuration list for PBXNativeTarget "Clipboard Landing Page (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90D4F238282C9F6D003B7048 /* Debug */,
@@ -440,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90D4F23A282C9F6D003B7048 /* Build configuration list for PBXNativeTarget "ClipboardLandingPage (macOS)" */ = {
+		90D4F23A282C9F6D003B7048 /* Build configuration list for PBXNativeTarget "Clipboard Landing Page (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90D4F23B282C9F6D003B7048 /* Debug */,
