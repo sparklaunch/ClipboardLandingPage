@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
+        ZStack(alignment: .top) {
             BackgroundView()
+            VStack {
+                LogoView()
+                    .padding(.vertical, 120)
+            }
         }
     }
 }
