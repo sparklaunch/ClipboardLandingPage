@@ -31,6 +31,8 @@
 		90D4F25F2831D594003B7048 /* SuperchargeFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F25E2831D594003B7048 /* SuperchargeFeatureView.swift */; };
 		90D4F2612831D726003B7048 /* CompaniesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2602831D726003B7048 /* CompaniesView.swift */; };
 		90D4F2632831D763003B7048 /* CompanyLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2622831D763003B7048 /* CompanyLogoView.swift */; };
+		90D4F2652831D84F003B7048 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2642831D84F003B7048 /* ReminderView.swift */; };
+		90D4F2672831D863003B7048 /* ReminderHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2662831D863003B7048 /* ReminderHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		90D4F25E2831D594003B7048 /* SuperchargeFeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperchargeFeatureView.swift; sourceTree = "<group>"; };
 		90D4F2602831D726003B7048 /* CompaniesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesView.swift; sourceTree = "<group>"; };
 		90D4F2622831D763003B7048 /* CompanyLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyLogoView.swift; sourceTree = "<group>"; };
+		90D4F2642831D84F003B7048 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		90D4F2662831D863003B7048 /* ReminderHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,8 @@
 				90D4F25E2831D594003B7048 /* SuperchargeFeatureView.swift */,
 				90D4F2602831D726003B7048 /* CompaniesView.swift */,
 				90D4F2622831D763003B7048 /* CompanyLogoView.swift */,
+				90D4F2642831D84F003B7048 /* ReminderView.swift */,
+				90D4F2662831D863003B7048 /* ReminderHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,12 +271,14 @@
 				90D4F2572831D434003B7048 /* AccessImageView.swift in Sources */,
 				90D4F2452831CC6E003B7048 /* HeaderView.swift in Sources */,
 				90D4F2532831D373003B7048 /* AccessView.swift in Sources */,
+				90D4F2672831D863003B7048 /* ReminderHeaderView.swift in Sources */,
 				90D4F2412831CB74003B7048 /* BackgroundView.swift in Sources */,
 				90D4F2512831D261003B7048 /* SnippetFeatureView.swift in Sources */,
 				90D4F25F2831D594003B7048 /* SuperchargeFeatureView.swift in Sources */,
 				90D4F25D2831D532003B7048 /* MainView.swift in Sources */,
 				90D4F2432831CBF3003B7048 /* LogoView.swift in Sources */,
 				90D4F231282C9F6D003B7048 /* ContentView.swift in Sources */,
+				90D4F2652831D84F003B7048 /* ReminderView.swift in Sources */,
 				90D4F2472831CD54003B7048 /* DownloadsView.swift in Sources */,
 				90D4F24B2831CF92003B7048 /* SnippetsHeaderView.swift in Sources */,
 				90D4F22F282C9F6D003B7048 /* ClipboardLandingPageApp.swift in Sources */,

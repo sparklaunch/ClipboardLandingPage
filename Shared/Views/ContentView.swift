@@ -19,6 +19,7 @@ struct ContentView: View {
                         AccessView()
                         SuperchargeView()
                         CompaniesView()
+                        ReminderView()
                     }
                     .padding(24)
                 }
