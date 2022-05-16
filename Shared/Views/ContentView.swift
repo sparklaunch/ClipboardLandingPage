@@ -13,7 +13,9 @@ struct ContentView: View {
             BackgroundView()
             VStack {
                 LogoView()
-                    .padding(.vertical, 120)
+                    .padding(.vertical, 80)
+                    .padding(.top, 40)
+                HeaderView()
             }
         }
     }
