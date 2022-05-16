@@ -14,19 +14,10 @@ struct ContentView: View {
                 ZStack(alignment: .top) {
                     BackgroundView()
                     VStack(spacing: 140) {
-                        VStack(spacing: 36) {
-                            LogoView()
-                                .padding(.vertical, 60)
-                                .padding(.top, 80)
-                            HeaderView()
-                            DownloadsView()
-                        }
-                        VStack {
-                            SnippetsView()
-                        }
-                        VStack {
-                            AccessView()
-                        }
+                        MainView()
+                        SnippetsView()
+                        AccessView()
+                        SuperchargeView()
                     }
                     .padding(24)
                 }
