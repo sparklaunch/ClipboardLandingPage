@@ -21,6 +21,7 @@
 		90D4F24B2831CF92003B7048 /* SnippetsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F24A2831CF92003B7048 /* SnippetsHeaderView.swift */; };
 		90D4F24D2831D057003B7048 /* SnippetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F24C2831D057003B7048 /* SnippetsView.swift */; };
 		90D4F24F2831D088003B7048 /* SnippetsImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F24E2831D088003B7048 /* SnippetsImageView.swift */; };
+		90D4F2512831D261003B7048 /* SnippetFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2502831D261003B7048 /* SnippetFeatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		90D4F24A2831CF92003B7048 /* SnippetsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsHeaderView.swift; sourceTree = "<group>"; };
 		90D4F24C2831D057003B7048 /* SnippetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsView.swift; sourceTree = "<group>"; };
 		90D4F24E2831D088003B7048 /* SnippetsImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsImageView.swift; sourceTree = "<group>"; };
+		90D4F2502831D261003B7048 /* SnippetFeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetFeatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				90D4F24A2831CF92003B7048 /* SnippetsHeaderView.swift */,
 				90D4F24C2831D057003B7048 /* SnippetsView.swift */,
 				90D4F24E2831D088003B7048 /* SnippetsImageView.swift */,
+				90D4F2502831D261003B7048 /* SnippetFeatureView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				90D4F2492831CE16003B7048 /* DownloadButtonView.swift in Sources */,
 				90D4F2452831CC6E003B7048 /* HeaderView.swift in Sources */,
 				90D4F2412831CB74003B7048 /* BackgroundView.swift in Sources */,
+				90D4F2512831D261003B7048 /* SnippetFeatureView.swift in Sources */,
 				90D4F2432831CBF3003B7048 /* LogoView.swift in Sources */,
 				90D4F231282C9F6D003B7048 /* ContentView.swift in Sources */,
 				90D4F2472831CD54003B7048 /* DownloadsView.swift in Sources */,
