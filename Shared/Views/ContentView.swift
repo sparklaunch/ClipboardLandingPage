@@ -13,7 +13,7 @@ struct ContentView: View {
             VStack {
                 ZStack(alignment: .top) {
                     BackgroundView()
-                    VStack(spacing: 100) {
+                    VStack(spacing: 140) {
                         VStack(spacing: 36) {
                             LogoView()
                                 .padding(.vertical, 60)
@@ -23,6 +23,9 @@ struct ContentView: View {
                         }
                         VStack {
                             SnippetsView()
+                        }
+                        VStack {
+                            AccessView()
                         }
                     }
                     .padding(24)
