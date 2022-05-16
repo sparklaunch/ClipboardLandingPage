@@ -28,6 +28,7 @@
 		90D4F2592831D48C003B7048 /* SuperchargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2582831D48C003B7048 /* SuperchargeView.swift */; };
 		90D4F25B2831D49E003B7048 /* SuperchargeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F25A2831D49E003B7048 /* SuperchargeHeaderView.swift */; };
 		90D4F25D2831D532003B7048 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F25C2831D532003B7048 /* MainView.swift */; };
+		90D4F25F2831D594003B7048 /* SuperchargeFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F25E2831D594003B7048 /* SuperchargeFeatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		90D4F2582831D48C003B7048 /* SuperchargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperchargeView.swift; sourceTree = "<group>"; };
 		90D4F25A2831D49E003B7048 /* SuperchargeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperchargeHeaderView.swift; sourceTree = "<group>"; };
 		90D4F25C2831D532003B7048 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		90D4F25E2831D594003B7048 /* SuperchargeFeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperchargeFeatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				90D4F2582831D48C003B7048 /* SuperchargeView.swift */,
 				90D4F25A2831D49E003B7048 /* SuperchargeHeaderView.swift */,
 				90D4F25C2831D532003B7048 /* MainView.swift */,
+				90D4F25E2831D594003B7048 /* SuperchargeFeatureView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				90D4F2532831D373003B7048 /* AccessView.swift in Sources */,
 				90D4F2412831CB74003B7048 /* BackgroundView.swift in Sources */,
 				90D4F2512831D261003B7048 /* SnippetFeatureView.swift in Sources */,
+				90D4F25F2831D594003B7048 /* SuperchargeFeatureView.swift in Sources */,
 				90D4F25D2831D532003B7048 /* MainView.swift in Sources */,
 				90D4F2432831CBF3003B7048 /* LogoView.swift in Sources */,
 				90D4F231282C9F6D003B7048 /* ContentView.swift in Sources */,
