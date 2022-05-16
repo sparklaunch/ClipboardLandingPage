@@ -9,8 +9,9 @@ import SwiftUI
 
 struct AccessView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 48) {
             AccessHeaderView()
+            AccessImageView()
         }
     }
 }
