@@ -16,6 +16,8 @@
 		90D4F2412831CB74003B7048 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2402831CB74003B7048 /* BackgroundView.swift */; };
 		90D4F2432831CBF3003B7048 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2422831CBF3003B7048 /* LogoView.swift */; };
 		90D4F2452831CC6E003B7048 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2442831CC6E003B7048 /* HeaderView.swift */; };
+		90D4F2472831CD54003B7048 /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2462831CD54003B7048 /* DownloadsView.swift */; };
+		90D4F2492831CE16003B7048 /* DownloadButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2482831CE16003B7048 /* DownloadButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		90D4F2402831CB74003B7048 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		90D4F2422831CBF3003B7048 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		90D4F2442831CC6E003B7048 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		90D4F2462831CD54003B7048 /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
+		90D4F2482831CE16003B7048 /* DownloadButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				90D4F2402831CB74003B7048 /* BackgroundView.swift */,
 				90D4F2422831CBF3003B7048 /* LogoView.swift */,
 				90D4F2442831CC6E003B7048 /* HeaderView.swift */,
+				90D4F2462831CD54003B7048 /* DownloadsView.swift */,
+				90D4F2482831CE16003B7048 /* DownloadButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,10 +215,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D4F2492831CE16003B7048 /* DownloadButtonView.swift in Sources */,
 				90D4F2452831CC6E003B7048 /* HeaderView.swift in Sources */,
 				90D4F2412831CB74003B7048 /* BackgroundView.swift in Sources */,
 				90D4F2432831CBF3003B7048 /* LogoView.swift in Sources */,
 				90D4F231282C9F6D003B7048 /* ContentView.swift in Sources */,
+				90D4F2472831CD54003B7048 /* DownloadsView.swift in Sources */,
 				90D4F22F282C9F6D003B7048 /* ClipboardLandingPageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
