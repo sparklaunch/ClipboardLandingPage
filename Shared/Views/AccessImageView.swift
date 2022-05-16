@@ -11,7 +11,7 @@ struct AccessImageView: View {
     var body: some View {
         Image(decorative: "Devices")
             .resizable()
-            .scaledToFit()
+            .scaledToFill()
     }
 }
 

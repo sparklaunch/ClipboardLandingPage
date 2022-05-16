@@ -11,13 +11,14 @@ struct SnippetsImageView: View {
     var body: some View {
         Image(decorative: "Computer")
             .resizable()
-            .scaledToFit()
+            .scaledToFill()
     }
 }
 
 struct SnippetsImageView_Previews: PreviewProvider {
     static var previews: some View {
         SnippetsImageView()
+            .padding()
             .previewLayout(.sizeThatFits)
     }
 }
