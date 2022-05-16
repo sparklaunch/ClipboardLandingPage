@@ -9,16 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack(alignment: .top) {
-            BackgroundView()
-            VStack(spacing: 36) {
-                LogoView()
-                    .padding(.vertical, 40)
-                    .padding(.top, 40)
-                HeaderView()
-                DownloadsView()
+        ScrollView {
+            VStack {
+                ZStack(alignment: .top) {
+                    BackgroundView()
+                    VStack(spacing: 100) {
+                        VStack(spacing: 36) {
+                            LogoView()
+                                .padding(.vertical, 60)
+                                .padding(.top, 80)
+                            HeaderView()
+                            DownloadsView()
+                        }
+                        VStack {
+                            SnippetsView()
+                        }
+                    }
                     .padding(24)
+                }
             }
+        }
+        .edgesIgnoringSafeArea(.all)
+        .onAppear {
+            UIScrollView.appearance().bounces = false
         }
     }
 }

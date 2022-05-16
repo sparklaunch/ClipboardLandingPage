@@ -19,7 +19,7 @@ struct DownloadButtonView: View {
                     .fill(color)
                     .shadow(color: color.opacity(0.5), radius: 10, x: .zero, y: .zero)
                 Text(text)
-                    .font(.title.bold())
+                    .font(.title.weight(.semibold))
                     .foregroundColor(.white)
                     .padding(20)
             }

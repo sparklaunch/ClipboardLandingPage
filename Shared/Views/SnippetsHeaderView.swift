@@ -1,5 +1,5 @@
 //
-//  HeaderView.swift
+//  SnippetsView.swift
 //  Clipboard Landing Page (iOS)
 //
 //  Created by Jinwook Kim on 2022/05/16.
@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-struct HeaderView: View {
+struct SnippetsHeaderView: View {
     var body: some View {
-        VStack(spacing: 24) {
-            Text("A history of everything you copy")
+        VStack(spacing: 36) {
+            Text("Keep track of your snippets")
                 .font(.largeTitle.weight(.semibold))
                 .foregroundColor(Color("TitleColor"))
                 .fixedSize(horizontal: false, vertical: true)
                 .multilineTextAlignment(.center)
-            Text("Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.")
+            Text("Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.")
                 .font(.title3)
-                .foregroundColor(Color("BodyColor"))
+                .foregroundColor(.init("BodyColor"))
                 .multilineTextAlignment(.center)
                 .lineSpacing(8)
                 .fixedSize(horizontal: false, vertical: true)
@@ -25,9 +25,9 @@ struct HeaderView: View {
     }
 }
 
-struct HeaderView_Previews: PreviewProvider {
+struct SnippetsHeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView()
+        SnippetsHeaderView()
             .padding()
             .previewLayout(.sizeThatFits)
     }
