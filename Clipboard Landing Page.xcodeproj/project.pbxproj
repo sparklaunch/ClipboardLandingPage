@@ -35,6 +35,8 @@
 		90D4F2672831D863003B7048 /* ReminderHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2662831D863003B7048 /* ReminderHeaderView.swift */; };
 		90D4F2692831D943003B7048 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2682831D943003B7048 /* FooterView.swift */; };
 		90D4F26B2831D96D003B7048 /* FooterLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F26A2831D96D003B7048 /* FooterLogoView.swift */; };
+		90D4F26D2831DA13003B7048 /* FooterSitemapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F26C2831DA13003B7048 /* FooterSitemapView.swift */; };
+		90D4F26F2831DA2A003B7048 /* FooterSitemapItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F26E2831DA2A003B7048 /* FooterSitemapItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		90D4F2662831D863003B7048 /* ReminderHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderHeaderView.swift; sourceTree = "<group>"; };
 		90D4F2682831D943003B7048 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		90D4F26A2831D96D003B7048 /* FooterLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLogoView.swift; sourceTree = "<group>"; };
+		90D4F26C2831DA13003B7048 /* FooterSitemapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSitemapView.swift; sourceTree = "<group>"; };
+		90D4F26E2831DA2A003B7048 /* FooterSitemapItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSitemapItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,8 @@
 				90D4F2662831D863003B7048 /* ReminderHeaderView.swift */,
 				90D4F2682831D943003B7048 /* FooterView.swift */,
 				90D4F26A2831D96D003B7048 /* FooterLogoView.swift */,
+				90D4F26C2831DA13003B7048 /* FooterSitemapView.swift */,
+				90D4F26E2831DA2A003B7048 /* FooterSitemapItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,6 +276,7 @@
 				90D4F24F2831D088003B7048 /* SnippetsImageView.swift in Sources */,
 				90D4F24D2831D057003B7048 /* SnippetsView.swift in Sources */,
 				90D4F2632831D763003B7048 /* CompanyLogoView.swift in Sources */,
+				90D4F26F2831DA2A003B7048 /* FooterSitemapItemView.swift in Sources */,
 				90D4F2592831D48C003B7048 /* SuperchargeView.swift in Sources */,
 				90D4F25B2831D49E003B7048 /* SuperchargeHeaderView.swift in Sources */,
 				90D4F2552831D388003B7048 /* AccessHeaderView.swift in Sources */,
@@ -277,6 +284,7 @@
 				90D4F2572831D434003B7048 /* AccessImageView.swift in Sources */,
 				90D4F2452831CC6E003B7048 /* HeaderView.swift in Sources */,
 				90D4F26B2831D96D003B7048 /* FooterLogoView.swift in Sources */,
+				90D4F26D2831DA13003B7048 /* FooterSitemapView.swift in Sources */,
 				90D4F2532831D373003B7048 /* AccessView.swift in Sources */,
 				90D4F2672831D863003B7048 /* ReminderHeaderView.swift in Sources */,
 				90D4F2412831CB74003B7048 /* BackgroundView.swift in Sources */,

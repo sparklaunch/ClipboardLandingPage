@@ -11,8 +11,9 @@ struct FooterView: View {
     var body: some View {
         ZStack {
             Color("FooterBackgroundColor")
-            VStack {
+            VStack(spacing: 36) {
                 FooterLogoView()
+                FooterSitemapView()
             }
             .padding(64)
         }
