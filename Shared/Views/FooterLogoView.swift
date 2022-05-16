@@ -12,7 +12,7 @@ struct FooterLogoView: View {
         Image("Logo")
             .resizable()
             .scaledToFit()
-            .frame(height: 48)
+            .frame(height: 64)
     }
 }
 

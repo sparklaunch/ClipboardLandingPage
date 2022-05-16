@@ -37,6 +37,8 @@
 		90D4F26B2831D96D003B7048 /* FooterLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F26A2831D96D003B7048 /* FooterLogoView.swift */; };
 		90D4F26D2831DA13003B7048 /* FooterSitemapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F26C2831DA13003B7048 /* FooterSitemapView.swift */; };
 		90D4F26F2831DA2A003B7048 /* FooterSitemapItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F26E2831DA2A003B7048 /* FooterSitemapItemView.swift */; };
+		90D4F2712831DAE8003B7048 /* FooterSocialMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2702831DAE8003B7048 /* FooterSocialMediaView.swift */; };
+		90D4F2732831DAFB003B7048 /* FooterSocialMediaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F2722831DAFB003B7048 /* FooterSocialMediaItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		90D4F26A2831D96D003B7048 /* FooterLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLogoView.swift; sourceTree = "<group>"; };
 		90D4F26C2831DA13003B7048 /* FooterSitemapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSitemapView.swift; sourceTree = "<group>"; };
 		90D4F26E2831DA2A003B7048 /* FooterSitemapItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSitemapItemView.swift; sourceTree = "<group>"; };
+		90D4F2702831DAE8003B7048 /* FooterSocialMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSocialMediaView.swift; sourceTree = "<group>"; };
+		90D4F2722831DAFB003B7048 /* FooterSocialMediaItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSocialMediaItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +167,8 @@
 				90D4F26A2831D96D003B7048 /* FooterLogoView.swift */,
 				90D4F26C2831DA13003B7048 /* FooterSitemapView.swift */,
 				90D4F26E2831DA2A003B7048 /* FooterSitemapItemView.swift */,
+				90D4F2702831DAE8003B7048 /* FooterSocialMediaView.swift */,
+				90D4F2722831DAFB003B7048 /* FooterSocialMediaItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -282,6 +288,7 @@
 				90D4F2552831D388003B7048 /* AccessHeaderView.swift in Sources */,
 				90D4F2492831CE16003B7048 /* DownloadButtonView.swift in Sources */,
 				90D4F2572831D434003B7048 /* AccessImageView.swift in Sources */,
+				90D4F2732831DAFB003B7048 /* FooterSocialMediaItemView.swift in Sources */,
 				90D4F2452831CC6E003B7048 /* HeaderView.swift in Sources */,
 				90D4F26B2831D96D003B7048 /* FooterLogoView.swift in Sources */,
 				90D4F26D2831DA13003B7048 /* FooterSitemapView.swift in Sources */,
@@ -292,6 +299,7 @@
 				90D4F25F2831D594003B7048 /* SuperchargeFeatureView.swift in Sources */,
 				90D4F25D2831D532003B7048 /* MainView.swift in Sources */,
 				90D4F2432831CBF3003B7048 /* LogoView.swift in Sources */,
+				90D4F2712831DAE8003B7048 /* FooterSocialMediaView.swift in Sources */,
 				90D4F231282C9F6D003B7048 /* ContentView.swift in Sources */,
 				90D4F2652831D84F003B7048 /* ReminderView.swift in Sources */,
 				90D4F2472831CD54003B7048 /* DownloadsView.swift in Sources */,

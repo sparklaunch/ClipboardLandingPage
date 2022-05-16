@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FooterSitemapView: View {
     var body: some View {
-        VStack(spacing: 24) {
+        VStack(spacing: 32) {
             FooterSitemapItemView(text: "FAQs")
             FooterSitemapItemView(text: "Contact Us")
             FooterSitemapItemView(text: "Privacy Policy")
